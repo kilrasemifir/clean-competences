@@ -1,17 +1,15 @@
-package fr.kira.formation.clean.competences.entities;
+package fr.kira.formation.clean.competences.infra;
 
 import lombok.Getter;
 import lombok.Setter;
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
 
-
-public class Competence {
-    @Getter
-    @Setter
+@Document
+@Getter
+@Setter
+public class CompetenceEntity {
+    @Id
     private String id;
-
-    @Getter @Setter
     private String nom;
-
 }

@@ -50,7 +50,7 @@ public class EcritureCompetenceSteps {
 
     @Then("La compétence est sauvegardée")
     public void laCompetenceEstSauvegardee() {
-        Mockito.verify(datasource, Mockito.times(1)).save(Mockito.any());
+        Mockito.verify(datasource, Mockito.times(1)).save(resultat);
     }
 
     @And("Le nom est sauvegardé en minuscule {string}")
