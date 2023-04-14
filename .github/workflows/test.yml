@@ -31,7 +31,7 @@ jobs:
       run: mvn test
 
   build:
-    require: test
+    needs: test
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
