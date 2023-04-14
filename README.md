@@ -14,3 +14,4 @@ Il est développé avec Spring boot 3 et l'architecture Clean Architecture.
 
 - Cloner le projet
 - Ouvrir le projet avec IntelliJ
+- Dans un terminal, se placer à la racine du projet et lancer la commande `docker-compose up -d`
