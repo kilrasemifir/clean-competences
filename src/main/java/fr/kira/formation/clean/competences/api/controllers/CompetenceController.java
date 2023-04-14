@@ -1,9 +1,8 @@
 package fr.kira.formation.clean.competences.api.controllers;
 
 import fr.kira.formation.clean.competences.entities.Competence;
-import fr.kira.formation.clean.competences.usecases.CompetenceEcritureSerive;
-import fr.kira.formation.clean.competences.usecases.CompetenceLectureService;
-import lombok.Getter;
+import fr.kira.formation.clean.competences.usecases.competences.CompetenceEcritureSerive;
+import fr.kira.formation.clean.competences.usecases.competences.CompetenceLectureService;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;

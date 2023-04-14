@@ -1,4 +1,4 @@
-package fr.kira.formation.clean.competences.usecases;
+package fr.kira.formation.clean.competences.usecases.competences;
 
 import fr.kira.formation.clean.competences.entities.Competence;
 

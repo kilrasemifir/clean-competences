@@ -1,9 +1,9 @@
 package fr.kira.formation.clean.competences;
 
 import fr.kira.formation.clean.competences.entities.Competence;
-import fr.kira.formation.clean.competences.usecases.CompetenceDatasource;
-import fr.kira.formation.clean.competences.usecases.CompetenceLectureService;
-import fr.kira.formation.clean.competences.usecases.impl.CompetenceLectureServiceImpl;
+import fr.kira.formation.clean.competences.usecases.competences.CompetenceDatasource;
+import fr.kira.formation.clean.competences.usecases.competences.CompetenceLectureService;
+import fr.kira.formation.clean.competences.usecases.competences.impl.CompetenceLectureServiceImpl;
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;

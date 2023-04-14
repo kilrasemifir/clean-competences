@@ -1,8 +1,8 @@
-package fr.kira.formation.clean.competences.usecases.impl;
+package fr.kira.formation.clean.competences.usecases.competences.impl;
 
 import fr.kira.formation.clean.competences.entities.Competence;
-import fr.kira.formation.clean.competences.usecases.CompetenceDatasource;
-import fr.kira.formation.clean.competences.usecases.CompetenceEcritureSerive;
+import fr.kira.formation.clean.competences.usecases.competences.CompetenceDatasource;
+import fr.kira.formation.clean.competences.usecases.competences.CompetenceEcritureSerive;
 
 public class CompetenceEcritureServiceImpl implements CompetenceEcritureSerive {
 

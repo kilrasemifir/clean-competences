@@ -2,7 +2,7 @@ package fr.kira.formation.clean.competences.infra;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import fr.kira.formation.clean.competences.entities.Competence;
-import fr.kira.formation.clean.competences.usecases.CompetenceDatasource;
+import fr.kira.formation.clean.competences.usecases.competences.CompetenceDatasource;
 
 import java.util.List;
 

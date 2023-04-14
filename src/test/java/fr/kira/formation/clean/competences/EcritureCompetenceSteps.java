@@ -1,14 +1,13 @@
 package fr.kira.formation.clean.competences;
 
 import fr.kira.formation.clean.competences.entities.Competence;
-import fr.kira.formation.clean.competences.usecases.CompetenceDatasource;
-import fr.kira.formation.clean.competences.usecases.CompetenceEcritureSerive;
-import fr.kira.formation.clean.competences.usecases.impl.CompetenceEcritureServiceImpl;
+import fr.kira.formation.clean.competences.usecases.competences.CompetenceDatasource;
+import fr.kira.formation.clean.competences.usecases.competences.CompetenceEcritureSerive;
+import fr.kira.formation.clean.competences.usecases.competences.impl.CompetenceEcritureServiceImpl;
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
-import org.mockito.Mock;
 import org.mockito.Mockito;
 import static org.junit.jupiter.api.Assertions.*;
 
