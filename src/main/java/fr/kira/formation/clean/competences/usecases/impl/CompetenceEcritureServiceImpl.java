@@ -17,4 +17,12 @@ public class CompetenceEcritureServiceImpl implements CompetenceEcritureSerive {
         competence.setNom(competence.getNom().toLowerCase());
         return this.datasource.save(competence);
     }
+
+    @Override
+    public Competence updateNom(String id, String nom) {
+        Competence competence = new Competence();
+        competence.setId(id);
+        competence.setNom(nom);
+        return this.datasource.save(competence);
+    }
 }

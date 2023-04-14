@@ -5,6 +5,9 @@ import lombok.Setter;
 
 // @Entity
 public class Competence {
+    @Getter
+    @Setter
+    private String id;
 
     @Getter @Setter
     private String nom;
