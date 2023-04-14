@@ -18,8 +18,5 @@ import static io.cucumber.junit.platform.engine.Constants.*;
 @CucumberContextConfiguration
 public class Runner {
 
-    @Test
-    public void fail(){
-        throw new RuntimeException("This test should not be executed");
-    }
+
 }
